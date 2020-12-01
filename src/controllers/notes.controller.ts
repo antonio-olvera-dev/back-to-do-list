@@ -23,7 +23,7 @@ class NotesController {
 
         try {
 
-            const text = req.body.description;
+            const text = req.body;
 
             await Notes.create(text);
 

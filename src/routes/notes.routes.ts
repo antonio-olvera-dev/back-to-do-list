@@ -7,7 +7,7 @@ router:Router = Router();
     constructor() {
 
         this.router.get('/notes', notesController.getAll);
-        this.router.post('/note/:id', notesController.setOne);
+        this.router.post('/note', notesController.setOne);
         this.router.delete('/note/:id', notesController.delOne);
         this.router.put('/note/:id', notesController.updateOne);
 

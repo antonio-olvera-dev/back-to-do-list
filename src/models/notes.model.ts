@@ -24,7 +24,7 @@ Notes.init({
     },
     description: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: true
     },
 
     createdAt: {
